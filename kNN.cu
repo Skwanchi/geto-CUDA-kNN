@@ -306,6 +306,7 @@ int main(int argc, char **argv)
   int numSMs;
   cudaDeviceGetAttribute(&numSMs, cudaDevAttrMultiProcessorCount, 0);
   printf("Your GPU has %d SMs.\n", numSMs);
+  printf("How are you today?\n");
 
   string datasetInputPath = "./dataset_resized/";
   string testInputPath = "./test/";
